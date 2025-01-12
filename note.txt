@@ -1,0 +1,1 @@
+ffmpeg -i "C:\Users\USER\Videos\Captures\views.py - video_editor - Visual Studio Code 2025-01-08 10-25-04.mp4" -af silencedetect=noise=-30dB:d=2 -c:v libx264 -preset fast processed_video.mp4
